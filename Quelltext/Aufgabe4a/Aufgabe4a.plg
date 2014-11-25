@@ -1,0 +1,60 @@
+<html>
+<body>
+<pre>
+<h1>µVision3 Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Praktikum\Desktop\V2_Programmvorlagen\Aufgabe4a\Aufgabe4a.uv2
+Project File Date:  04/23/2013
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Aufgabe4a_h.s...
+Aufgabe4a.s(58): error: A1137E: Unexpected characters at end of line
+Aufgabe4a.s(65): warning: A1313W: Missing END directive at end of file
+Target not created
+Build target 'Target 1'
+assembling Aufgabe4a_h.s...
+Aufgabe4a.s(58): error: A1137E: Unexpected characters at end of line
+Aufgabe4a.s(65): warning: A1313W: Missing END directive at end of file
+Target not created
+Build target 'Target 1'
+assembling Aufgabe4a_h.s...
+Aufgabe4a.s(58): error: A1137E: Unexpected characters at end of line
+Aufgabe4a.s(65): warning: A1313W: Missing END directive at end of file
+Target not created
+Build target 'Target 1'
+assembling Aufgabe4a_h.s...
+Aufgabe4a.s(58): error: A1137E: Unexpected characters at end of line
+Aufgabe4a.s(65): warning: A1313W: Missing END directive at end of file
+Target not created
+Build target 'Target 1'
+assembling Aufgabe4a_h.s...
+Aufgabe4a.s(58): error: A1137E: Unexpected characters at end of line
+Aufgabe4a.s(65): warning: A1313W: Missing END directive at end of file
+Target not created
+Build target 'Target 1'
+assembling Aufgabe4a_h.s...
+Aufgabe4a.s(58): error: A1137E: Unexpected characters at end of line
+Aufgabe4a.s(65): warning: A1313W: Missing END directive at end of file
+Target not created
+Build target 'Target 1'
+assembling Aufgabe4a_h.s...
+Aufgabe4a.s(58): error: A1137E: Unexpected characters at end of line
+Aufgabe4a.s(64): warning: A1313W: Missing END directive at end of file
+Target not created
+Build target 'Target 1'
+assembling Aufgabe4a_h.s...
+Aufgabe4a.s(64): warning: A1313W: Missing END directive at end of file
+linking...
+Program Size: Code=288 RO-data=0 RW-data=0 ZI-data=0  
+FromELF: creating hex file...
+"Aufgabe4a.axf" - 0 Error(s), 1 Warning(s).
+"C:\ADuC702xV1.3\ADuC702xV1.3\download\ARMWSD.exe" 
+Build target 'Target 1'
+assembling Aufgabe4a_h.s...
+Aufgabe4a.s(65): warning: A1313W: Missing END directive at end of file
+linking...
+Program Size: Code=292 RO-data=0 RW-data=0 ZI-data=0  
+FromELF: creating hex file...
+"Aufgabe4a.axf" - 0 Error(s), 1 Warning(s).
+"C:\ADuC702xV1.3\ADuC702xV1.3\download\ARMWSD.exe" 

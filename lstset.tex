@@ -1,0 +1,29 @@
+%% Definition der Quelltextformatierung
+%% 
+%% 2010/11/30 Ferdinand Schwenk
+
+
+%\lstset{escapechar=@,style=customc}
+\lstdefinelanguage
+   [ARM]{Assembler}     % add a "x64" dialect of Assembler
+   [x86masm]{Assembler} % based on the "x86masm" dialect
+   % with these extra keywords:
+   {morekeywords={LDR}} % etc.
+\lstset{
+  language={[ARM]Assembler},
+  tabsize=4,
+  captionpos=b,
+  numbers=left,
+  commentstyle=\color{green},
+  backgroundcolor=\color{white},
+  numberstyle=\color{gray},
+  keywordstyle=\color{blue} \textbf,%otherkeywords={xdata},
+  keywords=[2]{xdata},
+  keywordstyle=[2]\color{red}\textbf,
+  identifierstyle=\color{black},
+  stringstyle=\color{red}\ttfamily,
+  basicstyle = \ttfamily \color{black} \footnotesize,
+  %inputencoding=utf8/latin1,
+  showstringspaces=false ,
+  moredelim=[is][\color{yellow}]{|}{|},
+}

@@ -1,0 +1,18 @@
+*** Creating Trace Output File 'Aufgabe6.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"aufgabe6_h.o"'
+### ADS-LD Command completed:
+--device DARMAD "aufgabe6_h.o" --ro-base 0x00080000 --entry 0x00080000 --rw-base 0x00010000 --strict --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Aufgabe6.map" -o "Aufgabe6.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Aufgabe6.axf'
+### ADS-LD Command File: 'Aufgabe6.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Aufgabe6.lnp', Handle=0x000002F8
+### Writing '.lnp' file
+### ADS-LD Command file 'Aufgabe6.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

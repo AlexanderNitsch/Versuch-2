@@ -1,0 +1,2 @@
+Dependencies for Project 'Aufgabe4a', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Aufgabe4a_h.s)(0x5176393E)(--device DARMAD --pd "__EVAL SETA 1" -g -I "C:\Keil\ARM\INC\ADI" --list "Aufgabe4a_h.lst" --xref -o "Aufgabe4a_h.o")

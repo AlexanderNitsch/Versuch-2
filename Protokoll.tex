@@ -1,0 +1,76 @@
+
+\documentclass[%
+  a4paper, %
+  12pt, %
+  twoside, %
+  titlepage
+]{scrartcl}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\setcounter{secnumdepth}{-1} %keine Nummerierung der Kapitel
+
+%% Zusatz Pakete einbinden
+% Zum Einbinden von Quelltexten
+\usepackage{listings}
+\input{lstset}        % Einstellungen für das linstings-Paket laden
+
+% Bilder und Farbe
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{xcolor}
+
+% Mathematische Formeln
+\usepackage{amsmath}
+
+% Tabellen
+\usepackage{tabularx}
+
+%% Meta-Informationen
+\author{%
+  \normalsize %
+  \begin{tabularx}{\linewidth}{|l|X|}%
+    \hline%
+    \textbf{Name:}         & Johannes Pankert \\ \hline
+    \textbf{Matrikelnummer:}  & 1714312 \\ \hline
+    \textbf{e-Mail-Addresse:} & Johannes@Pankert.eu \\ \hline
+    \\ \hline
+\textbf{Name:}         & Simon Ramsteiner \\ \hline
+    \textbf{Matrikelnummer:}  & DEINE MATRIKELNUMMER \\ \hline
+    \textbf{e-Mail-Addresse:} & DEINE E-MAIL-ADDRESSE \\ \hline
+    \\ \hline
+\textbf{Name:}         & Alexander Nitsch \\ \hline
+    \textbf{Matrikelnummer:}  & DEINE MATRIKELNUMMER \\ \hline
+    \textbf{e-Mail-Addresse:} & alexander.nitsch@me.com \\ 
+     \hline 
+  \end{tabularx}%
+}
+% ------------------------------------------------------------------------------
+% Die Informationen in diesem Bereich bitte nicht aendern
+\input{Titelseite}
+% ------------------------------------------------------------------------------
+
+% Hier beginnt das Dokument
+\begin{document}
+  % Erstellt die Titelseite
+  \maketitle
+  
+  %Gibt das Inhaltsverzeichnis aus
+  \tableofcontents
+  \clearpage
+  
+  %% Hier kannst du jetzt Deinen Lösungstext schrieben.
+  %% Grafiken einbinden (*.pdf oder *.png):
+  %%   \includegraphics{Pfad/zu/Deinem/Bild}
+  %%   \includegraphics[width=BREITE,height=HOEHE,keepaspectratio]{Pfad/zu/Deinem/Bild}
+  %% Quelltext einbinden:
+  %%   \lstinputlisting[caption={BESCHRIFTUNG}]{Pfad/zu/deinem/quelltext}
+ 
+
+\include{Aufgabe4} %Johannes	
+
+
+
+\end{document}

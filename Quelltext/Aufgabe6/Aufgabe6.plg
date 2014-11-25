@@ -1,0 +1,79 @@
+<html>
+<body>
+<pre>
+<h1>µVision3 Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Praktikum\Desktop\V2_Programmvorlagen\Aufgabe6\Aufgabe6.uv2
+Project File Date:  04/23/2013
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Aufgabe6_h.s...
+ADCDAC.s(78): warning: A1313W: Missing END directive at end of file
+ADCDAC.s(34): error: A1510E: Immediate 0x000009A4 cannot be represented by 0-255 and a rotation
+Target not created
+Build target 'Target 1'
+assembling Aufgabe6_h.s...
+ADCDAC.s(34): error: A1152E: Unexpected operator
+ADCDAC.s(78): warning: A1313W: Missing END directive at end of file
+Target not created
+Build target 'Target 1'
+assembling Aufgabe6_h.s...
+ADCDAC.s(34): error: A1152E: Unexpected operator
+ADCDAC.s(78): warning: A1313W: Missing END directive at end of file
+Target not created
+Build target 'Target 1'
+assembling Aufgabe6_h.s...
+ADCDAC.s(78): warning: A1313W: Missing END directive at end of file
+linking...
+Program Size: Code=284 RO-data=0 RW-data=0 ZI-data=0  
+FromELF: creating hex file...
+"Aufgabe6.axf" - 0 Error(s), 1 Warning(s).
+"C:\ADuC702xV1.3\ADuC702xV1.3\download\ARMWSD.exe" 
+Build target 'Target 1'
+assembling Aufgabe6_h.s...
+ADCDAC.s(76): warning: A1313W: Missing END directive at end of file
+linking...
+Program Size: Code=276 RO-data=0 RW-data=0 ZI-data=0  
+FromELF: creating hex file...
+"Aufgabe6.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+assembling Aufgabe6_h.s...
+ADCDAC.s(77): warning: A1313W: Missing END directive at end of file
+linking...
+Program Size: Code=280 RO-data=0 RW-data=0 ZI-data=0  
+FromELF: creating hex file...
+"Aufgabe6.axf" - 0 Error(s), 1 Warning(s).
+"C:\ADuC702xV1.3\ADuC702xV1.3\download\ARMWSD.exe" 
+Build target 'Target 1'
+assembling Aufgabe6_h.s...
+ADCDAC.s(77): warning: A1313W: Missing END directive at end of file
+linking...
+Program Size: Code=280 RO-data=0 RW-data=0 ZI-data=0  
+FromELF: creating hex file...
+"Aufgabe6.axf" - 0 Error(s), 1 Warning(s).
+"C:\ADuC702xV1.3\ADuC702xV1.3\download\ARMWSD.exe" 
+Build target 'Target 1'
+assembling Aufgabe6_h.s...
+ADCDAC.s(77): warning: A1313W: Missing END directive at end of file
+linking...
+Program Size: Code=280 RO-data=0 RW-data=0 ZI-data=0  
+FromELF: creating hex file...
+"Aufgabe6.axf" - 0 Error(s), 1 Warning(s).
+"C:\ADuC702xV1.3\ADuC702xV1.3\download\ARMWSD.exe" 
+Build target 'Target 1'
+assembling Aufgabe6_h.s...
+ADCDAC.s(77): warning: A1313W: Missing END directive at end of file
+linking...
+Program Size: Code=280 RO-data=0 RW-data=0 ZI-data=0  
+FromELF: creating hex file...
+"Aufgabe6.axf" - 0 Error(s), 1 Warning(s).
+"C:\ADuC702xV1.3\ADuC702xV1.3\download\ARMWSD.exe" 
+Build target 'Target 1'
+assembling Aufgabe6_h.s...
+ADCDAC.s(77): warning: A1313W: Missing END directive at end of file
+linking...
+Program Size: Code=280 RO-data=0 RW-data=0 ZI-data=0  
+FromELF: creating hex file...
+"Aufgabe6.axf" - 0 Error(s), 1 Warning(s).
+"C:\ADuC702xV1.3\ADuC702xV1.3\download\ARMWSD.exe" 

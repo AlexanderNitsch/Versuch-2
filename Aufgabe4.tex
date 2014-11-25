@@ -1,0 +1,14 @@
+\section{Aufgabe 4}	%Johannes
+\subsection{a)}
+\begin{lstlisting}[caption={Spannungsbereich und DAC Takt setzten}, label=lst:SpannungTakt, frame=tlrb]
+		LDR r1, =DAC0CON;
+		MOV r2, #0x13; pattern:10011 
+		STR r2, [r1]
+\end{lstlisting}
+
+%%\begin{figure}
+%%	\centering
+%%	\includegraphics[width=0.5\textwidth]{Bilder/Drehzahl}
+%%	\caption{Die aktuelle Drehzahl wird angezeigt}
+%%	\label{fig:Drehzahl}	
+%%\end{figure}
